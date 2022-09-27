@@ -1,3 +1,4 @@
+<?php include('partes/cabecera.php'); ?>
 <!DOCTYPE html>
 <html lang="es">
 
@@ -10,50 +11,37 @@
     <link rel="stylesheet" href="css/bootstrap/estilo.css">
 </head>
 <!-- Incluir el archido de cabecera -->
-<?php include('partes/cabecera.php'); ?>
 
 <body style="background-color: #ECECEC;">
-    <br><br><br><br><br>
+    <br>
     <!-- Primer contenido de la página principal -->
     <div class="container">
         <center>
-            <h1>Un Pug</h1><br>
+            <h1>Tecnología</h1><br>
         </center>
         <div class="row"><br>
-            <p>
-                <img src="img/pug.jfif" align="left" hspace="20" width="300" height="300">
-                El perro (Canis familiaris o Canis lupus familiaris, dependiendo de si se lo considera una
-                especie por derecho propio o una subespecie del lobo),1​2​3​ llamado perro doméstico o can,4​ y
-                en algunos lugares coloquialmente llamado chucho,5​ tuso,6​ choco,7​ entre otros; es un mamífero
-                carnívoro de la familia de los cánidos, que constituye una especie del género Canis.8​9​ En el
-                2013, la población mundial estimada de perros estaba entre setecientos millones y novecientos
-                ochenta y siete millones.10​11​ Su tamaño (o talla), su forma y su pelaje es muy diverso y varía
-                según la raza. Posee un oído y un olfato muy desarrollados, y este último es su principal
-                órgano sensorial. Su longevidad media es de diez a trece años,12​13​14​ dependiendo de la raza.
-                Junto al gato doméstico, se le considera uno de los animales de compañía más populares del mundo.
+            <p style="text-align: justify;">
+                <img src="img/tecnologia.jpg" align="left" hspace="50" width="350" height="250">
+                La tecnología del futuro tiene mucho que ver con las aplicaciones y tendencias de la
+                tecnología en la actualidad. Estas nos permiten vislumbrar lo que está por venir en un
+                futuro cercano sobre el que ya se está trabajando. Lo último en tecnología hoy es la base
+                sobre la que llegará un nuevo avance mañana. La transformación que traerán consigo estos
+                avances no será solo a nivel personal o laboral, sino que implicará a toda la sociedad.
+                Y para ello hay que prepararse.
+                La influencia de la tecnología en la sociedad no es algo nuevo. En distintas épocas, los 
+                avances tecnológicos han supuesto cambios en las sociedades. Pero quizá nunca ha habido 
+                transformaciones tan drásticas en un espacio de tiempo tan breve como la que está en marcha. 
+                Y que se verá con mayor claridad cuando se popularice lo que a día de hoy se denomina la 
+                tecnología del futuro.
+                El internet de las cosas, el 5G, la inteligencia artificial unida a la robótica, son solo 
+                algunas de esas tecnologías que se espera transformen el mundo. De qué manera y con qué 
+                resultado, aún está por ver. Lo que sí parece claro es que la tecnología en la sociedad puede 
+                ser muy positiva si se logra que la tecnología del futuro se ponga al servicio de la sociedad 
+                y no a la inversa. Para prepararse para ello ya se está debatiendo sobre la mejor forma de 
+                crear ciudades inteligentes. Así como de utilizar mano de obra robótica sin condenar a la 
+                mano de obra humana a la precariedad.
             </p>
         </div>
-    </div>
-    <br><br>
-    <!-- Segundo contenido de la página principal -->
-    <div class="container">
-        <center>
-            <h1>Otra cosa</h1><br>
-            <img src="img/clima.jfif">
-            <br>
-            <p><br>
-                El clima se define como las condiciones meteorológicas medias que caracterizan a un lugar
-                determinado.1​2​ Es una síntesis del tiempo atmosférico, obtenida a partir de estadísticas a
-                largo plazo. Los elementos meteorológicos a tomar en cuenta son la temperatura, la presión,
-                el viento, la humedad y la precipitación.3​
-                El clima difiere del tiempo meteorológico en que la meteorología solo describe las condiciones
-                de corto plazo de estas variables en una región dada. Así, el clima de un lugar o una región
-                está constituido por los datos estadísticos de la meteorología de dicho lugar o región
-                analizados a lo largo de un plazo relativamente largo, de 30 años o más, como señala F. J.
-                Monkhouse (1978).4​5​ Los componentes meteorológicos que suelen tomarse como elementos
-                climáticos son cinco, como ya se ha indicado arriba.
-            </p>
-        </center>
     </div>
 </body>
 

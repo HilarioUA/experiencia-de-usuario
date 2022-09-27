@@ -1,0 +1,19 @@
+/* Estilo de letras de la cabecera */
+.blanco {
+    color: white;
+}
+
+/* Estilo de contacto.php */
+.contacto{
+    border: solid 1px;
+    background-color: moccasin;
+    width: 50%;
+}
+#nombre{
+    font-size: 25px;
+    
+}
+
+p {
+    font-size: 30px;
+}

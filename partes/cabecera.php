@@ -5,22 +5,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Finix</title>
     <!-- CSS only -->
     <link href="css/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <!-- Hoja de estilos -->
-    <link href="css/bootstrap/estilo.css" rel="stylesheet" type="text/css">
+    <link href="estilo.css" rel="stylesheet" type="text/css">
     <!-- JavaScript Bundle with Popper -->
     <script src="css/bootstrap/js/bootstrap.bundle.min.js"></script>
 </head>
 
 <body">
     <!-- Inicio de la cabecera de la página -->
-    <nav class="navbar navbar-expand-lg" id="cabecera" style="background-color: #7532FA; position: fixed; width: 100%;">
+    <nav class="navbar navbar-expand-lg" id="cabecera" style="background-color: #7532FA;">
         <div class="container-fluid" style="margin-left: 10%;">
             <div>
                 <img src="img/al.png" height="80" width="80" style="border-radius: 100%;">
-                <a class="navbar-brand blanco" href="#">&nbsp Start</a>
+                <a class="navbar-brand blanco" href="index.php">&nbsp Start</a>
             </div>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -35,12 +35,9 @@
                             Menú
                         </a>
                         <ul class="dropdown-menu blanco">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            <li><a class="dropdown-item" href="tema1.php">Tema 1</a></li>
+                            <li><a class="dropdown-item" href="tema2.php">Tema 2</a></li>
+                            <li><a class="dropdown-item" href="tema3.php">Tema 3</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
@@ -49,7 +46,7 @@
                 </ul>
                 <form class="d-flex" role="search">
                     <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
-                    <button class="btn btn-danger" type="submit">Buscar</button>
+                    <button class="btn btn-outline-light" type="submit">Buscar</button>
                 </form>
             </div>
         </div>
